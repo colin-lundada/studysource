@@ -1,0 +1,9 @@
+hadoop的端口配置：
+node01:9870//hadoop   node01:9876//hdfs 通信端口
+node01：8088//hadoop日志
+spark的端口配置：
+node01:4040//spark的任务日志
+node01 8080 spark集群web-ui界面端口
+node01 7077 spark提交任务时的通信端口
+node01:19888//历史日志
+node01:18080//spark的历史日志
